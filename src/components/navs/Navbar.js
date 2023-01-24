@@ -1,4 +1,7 @@
 import React from 'react';
+import Bell from '../../../src/assets/Bell.svg';
+import Dropdown from '../../../src/assets/Drop-down.svg';
+import Profile from '../../../src/assets/Profile.jpg';
 
 export default function Navbar(){
     function openNav() {
@@ -11,24 +14,23 @@ export default function Navbar(){
                 <nav>
                     <div className="menu">
                         {/*Use any element to open the sidenav*/}
-                        <span style={{"font-size":"30px","cursor":"pointer"}} onClick={openNav}>&#9776; open</span>
+                        <span style={{"padding":"5px","cursor":"pointer","background":"#2067A1","border-radius":"5px"}} onClick={openNav}>&#9776;</span>
                     </div>
                     <div>
-                        <input type="text" />
+                        <input type="text"/>
                     </div>
                     <div className="right-nav">
                         <div className="bell">
-                            bell
+                            <img src={Bell} alt="Your SVG" />
                         </div>
                         <div className="name">
-                            name
+                            Ekenedilichukwu Mathew Obiasogu
+                            <img src={Dropdown} alt="Your SVG" style={{"padding-left":"10px"}}/>
                         </div>
                         <div className="profile">
-                            profile
+                            <img src={Profile} alt="Your SVG" style={{"width":"50px","border-radius":"50%"}}/>
                         </div>
-                    </div>
-                    
-               
+                    </div>              
                 </nav>
             </header>
         </>
