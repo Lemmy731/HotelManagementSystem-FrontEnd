@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Register.css";
 
 function Register() {
@@ -82,6 +83,9 @@ function Register() {
         <button type="text" class="submit">
           Register
         </button>
+        <p>
+          Already have an account? <Link to="/login">Login</Link>
+        </p>
       </div>
     </div>
   );
