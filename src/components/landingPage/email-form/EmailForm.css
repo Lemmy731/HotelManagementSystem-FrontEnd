@@ -1,0 +1,17 @@
+.btnEmail {
+    padding: 8px 20px;
+    border-radius: 0px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: #2067A1;
+    color: white;
+}
+
+.inputEmail {
+    padding: 8px 20px;
+    border-radius: 0px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}

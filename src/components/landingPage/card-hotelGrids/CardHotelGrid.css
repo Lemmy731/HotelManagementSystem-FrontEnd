@@ -1,0 +1,243 @@
+.card_grid_container {
+    padding: 3rem 8.5rem 0rem;
+    display: grid;
+    /* height: 100vh; */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.3fr 0.7fr;
+    grid-template-areas: 
+        "one two two"
+        "one three four"
+        "five five four"
+        "five five four"
+        "five five six";
+    grid-gap: 1rem;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    background: #fafdff;
+    
+    /* border: 2px solid yellowgreen */
+}
+
+
+.gridImg {
+    width: 100%;
+    height: 100%;
+}
+
+#one {
+    /* background: yellow; */
+    grid-area: one;
+}
+
+#two {
+    /* background: rgb(148, 202, 0); */
+    grid-area: two;
+}
+#three {
+    /* background: rgb(0, 255, 204); */
+    grid-area: three;
+}
+#four {
+    /* background: rgb(0, 136, 255); */
+    grid-area: four;
+}
+#five {
+    /* background: rgb(0, 255, 225); */
+    grid-area: five;
+}
+#six {
+    /* background: rgb(255, 0, 179); */
+    grid-area: six;
+}
+
+.gridImgDiv1 {
+    position: relative;
+}
+
+.gridImgDiv1 .gridHotelImg1 {
+    width: 100%;
+}
+
+.gridHotelName1 {
+    position: absolute;
+    top: 7%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.gridHotelLocation1 {
+    position: absolute;
+    top: 13%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 15px;
+}
+
+/* second div */
+
+.gridImgDiv2 {
+    position: relative;
+}
+
+.gridImgDiv2 .gridHotelImg2 {
+    width: 100%;
+}
+
+.gridHotelName2 {
+    position: absolute;
+    top: 12%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.gridHotelLocation2 {
+    position: absolute;
+    top: 24%;
+    left: 6%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 15px;
+}
+
+/* third div */
+
+.gridImgDiv3 {
+    position: relative;
+}
+
+.gridImgDiv3 .gridHotelImg3 {
+    width: 100%;
+}
+
+.gridHotelName3 {
+    position: absolute;
+    top: 12%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.gridHotelLocation3 {
+    position: absolute;
+    top: 24%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 15px;
+}
+
+/* fourth div */
+
+.gridImgDiv4 {
+    position: relative;
+}
+
+.gridImgDiv4 .gridHotelImg4 {
+    width: 100%;
+}
+
+.gridHotelName4 {
+    position: absolute;
+    top: 6%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.gridHotelLocation4 {
+    position: absolute;
+    top: 12%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 15px;
+}
+
+/* fifth div */
+
+.gridImgDiv5 {
+    position: relative;
+}
+
+.gridImgDiv5 .gridHotelImg5 {
+    width: 100%;
+}
+
+.gridHotelName5 {
+    position: absolute;
+    top: 6%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.gridHotelLocation5 {
+    position: absolute;
+    top: 12%;
+    left: 7%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 15px;
+}
+
+/* Sixth div */
+
+.gridImgDiv6 {
+    position: relative;
+}
+
+.gridImgDiv6 .gridHotelImg6 {
+    width: 100%;
+}
+
+.gridHotelName6 {
+    position: absolute;
+    top: 9%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.gridHotelLocation6 {
+    position: absolute;
+    top: 20%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 550px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+            "one"
+            "two"
+            "three"
+            "four"
+            "five"
+            "six";
+    }
+}
+
+#h1heading {
+    margin-left: 9rem;
+    text-align: left;
+}

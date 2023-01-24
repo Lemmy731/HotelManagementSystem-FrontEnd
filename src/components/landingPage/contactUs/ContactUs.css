@@ -1,0 +1,49 @@
+.contact-container {
+    width: auto;   
+}
+
+#contactImg {
+    width: 100vw;
+    opacity: 0.5;
+}
+
+.contact-image-container {
+    position: relative;
+    background-color: black;
+}
+
+.contact-image-container .contact_img {
+    width: 100%;
+}
+
+.contacth2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+}
+
+.contact-image-container .contactP {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    width: 500px;
+
+}
+
+.contactEmail {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 36px;
+}
+
+

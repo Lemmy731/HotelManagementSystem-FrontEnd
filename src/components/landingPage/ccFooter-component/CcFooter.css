@@ -1,0 +1,30 @@
+.ccfooter-container {
+
+    display: grid;
+    /* height: 100vh; */
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.3fr 0.7fr;
+    grid-template-areas: 
+        "two one";
+    /* grid-gap: 5rem; */
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    /* border: 2px solid yellowgreen */
+    background: #1A2E3D;
+    color: white;
+}
+
+.ccfooterOne {
+    /* background: yellow; */
+    grid-area: one;
+}
+
+.ccfooterOne {
+    /* background: rgb(148, 202, 0); */
+    grid-area: two;
+}
+
+    #twoF, #threeF, #fourF, p, h3 {
+        margin-bottom: 20px;
+    }

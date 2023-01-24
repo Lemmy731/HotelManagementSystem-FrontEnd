@@ -1,0 +1,65 @@
+.container-footer {
+    display: grid;
+    height: 80vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "oneF twoF threeF fourF";
+    grid-gap: 5rem;
+    color: white;
+    background: #1A2E3D;
+    padding: 120px;
+}
+
+.oneF {
+    /* background: yellow; */
+    grid-area: oneF;
+}
+
+#twoF {
+    /* background: rgb(148, 202, 0); */
+    grid-area: twoF;
+    /* margin-bottom: 30px; */
+}
+#threeF {
+    /* background: rgb(0, 255, 204); */
+    grid-area: threeF;
+}
+#fourF {
+    /* background: rgb(0, 136, 255); */
+    grid-area: fourF;
+}
+#fiveF {
+    /* background: rgb(0, 255, 225); */
+    grid-area: fiveF;
+}
+#sixF {
+    /* background: rgb(255, 0, 179); */
+    grid-area: sixF;
+}
+
+
+.footerCol1 {
+    height: 10px;
+}
+
+.fa-icons {
+    margin-left: 20px;
+}
+
+
+
+@media only screen and (max-width: 550px) {
+    .container-footer {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+            "one"
+            "two"
+            "three"
+            "four"
+            "five"
+            "six";
+    }
+}
+
