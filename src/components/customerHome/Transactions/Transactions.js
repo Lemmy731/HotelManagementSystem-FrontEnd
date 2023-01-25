@@ -1,5 +1,5 @@
 import React from "react";
-import "./Transaction.css";
+import "./Transactions.css";
 import { HiMagnifyingGlass } from "react-icons/hi2";
 import { BiFilter } from "react-icons/bi";
 import { FaEllipsisH } from "react-icons/fa";
@@ -12,12 +12,12 @@ function Transactions() {
   return (
     <div className="tranTable">
       <h2>Transaction</h2>
-      <div className="TransactionSearchBar">
+      <div className="earchBar">
         <span>
           <BiFilter className="TransactionFilterIcon" />
         </span>
-        <div className="TransactionsearchInput">
-          <HiMagnifyingGlass className="TransactionSearchIcon" />
+        <div className="earchInput">
+          <HiMagnifyingGlass className="earchIcon" />
           <input type="text" placeholder="Search" />
         </div>
       </div>
