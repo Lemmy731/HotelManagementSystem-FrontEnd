@@ -1,0 +1,108 @@
+
+
+.UsertranTable {
+  position: absolute;
+  width: 1020px;
+  height: 730px;
+  left: 300px;
+  top: 150px;
+  
+  /* Background */
+  
+  background: #FFFFFF;
+  border-radius: 6px;
+    
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 1020px;
+  }
+  .UserTransactionSearchBar {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  .TransactionFilterIcon {
+    font-size: 20px;
+  }
+  .UserTransactionsearchInput {
+    width: max-content;
+    position: relative;
+  }
+  .UserTransactionSearchBar input {
+    width: 300px;
+    font-size: 14px;
+    padding: 10px 30px;
+    border-radius: 4px;
+    background-color: #dae1ec;
+    border: 1px solid #dae1ec;
+  }
+  .UserTransactionSearchIcon {
+    font-size: 20px;
+    position: absolute;
+    top: 25%;
+    left: 7px;
+  }
+  td,
+  th {
+    text-align: center;
+    padding: 18px 8px;
+    width: 20px;
+  }
+  .TransactionCrud {
+    display: flex;
+    padding: 18px 8px;
+    text-align: center;
+  }
+  .Transaction-pagination {
+    display: flex;
+  }
+  Transaction-pagination h4 {
+    display: inline-flex;
+  }
+  .UserTranCheckBox {
+    width: 20px;
+  }
+  tr:nth-child(even) {
+    background-color: #f4f7fc;
+  }
+  tr:hover {
+    background-color: #4b515b26;
+  }
+  .Transaction-pagination {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .Transaction-pagination h4 {
+    float: left;
+  }
+  
+  .Transaction-pagination select, .Transaction-pagination h4 {
+    margin-right: 10px;
+  }
+  .Footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    }
+    
+    .Footer h4 {
+    text-align: center;
+    }
+    
+    .Footer select {
+    margin-right: 10px;
+    }
+    
+    .Footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .Action{
+      display:inline-flex;
+      
+    }
