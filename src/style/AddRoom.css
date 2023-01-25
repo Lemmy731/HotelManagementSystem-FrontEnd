@@ -1,0 +1,116 @@
+.AddRoom{
+    max-width: 850px;
+    height: 800px;
+    background-color: rgb(251, 248, 248);
+   margin: auto;
+    border-radius: 20px;
+  }
+  .addRoom_cont{
+    display: flex;
+
+  }
+  .roomPicture {
+     height: 745px;
+     width: 269px;
+     margin-left: 10px;
+    
+  }
+  .Tops{
+    font-size: 32px;
+    
+    
+
+  }
+  .high{
+    height: 800px;
+    width: 275px;    
+  }
+  .Another{ 
+    height: 850px; 
+  }
+  /* .opt{
+    display: flex;
+  } */
+  
+  .Drop{
+    height: 40px;
+    width: 430px;
+    font-size: 27px;
+    
+  }
+  .roomtype{
+    max-width: 850px;
+    height: 800px;
+    margin-top: 30px;
+
+  }
+  .has{
+    margin-top: 0rem;
+    margin-left: 58px;
+    
+  }
+  .no{
+    margin-top: 2rem;
+    padding-left: 7px;
+    font-size: 25px;
+    margin-left: 50px;
+  }
+  .more{
+    height: 1rem;
+    font-size: 25px ;
+    width: 400px;
+  }
+
+  .room {
+    height: 4rem;
+    margin-top: 5rem;
+    width: 100px;
+    font-size: 25px;
+    width: 250px;
+    border-radius: 15px;
+    margin-left: 9rem;
+  }
+  .Joo{
+    margin-top: 50px;
+  }
+  .Hin{
+    font-size: 17px;
+  }
+
+ .Doings{
+    height: 1rem;
+    font-size: 25px ;
+    width: 400px;
+    margin-left: 10px;
+    margin-top: 0px;
+    color: black;
+ }
+ .going{
+    margin-bottom: 12px;
+ }
+ .ken{
+    margin-left: 50px;
+ }
+ .see{
+    font-size: 15px;
+    margin-left: 1px;
+    color: black;
+    margin-left: -0.0rem;
+    font-weight: bold;
+ }
+ .Loo{
+    margin-top: 100px;
+    font-size: 15px;
+    color: black;
+    margin-left: 1.1rem;
+    font-weight: bold;
+
+ }
+ .Lin{
+    margin-top: 100px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 3.8rem;
+ }
+
