@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import "./Created.css";
 
 
-const Success = () => {
+const Update = () => {
 
   const [create, setCreate] = useState(false);
 
@@ -27,8 +27,8 @@ const Success = () => {
         <div
           onClick={toggleModal} className="overlay"></div>
           <div className="modal-content">
-          <h2>Success!!!</h2>
-          <h3>Operation was successful</h3>
+          <h2>Updated</h2>
+          <h3>Itemi is successfuly updated</h3>
           <button
           className="close-modal"
           onClick={toggleModal}
@@ -42,6 +42,6 @@ const Success = () => {
   )
 }
 
-export default Success;
+export default Update;
 
 
