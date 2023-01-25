@@ -5,7 +5,8 @@ import Register from "./components/authentication/Register";
 import ResetUpdatePassword from "../src/components/ResetUpdatePassword/ResetUpdatePassword";
 import ResetPassword from "./components/authentication/ResetPassword";
 import ChangePassword from "./components/authentication/ChangePassword";
-import LandingPage from './components/landingPage/landingPageIndex/LandingPage';
+import LandingPage from"./components/landingPage/landingPageIndex/LandingPage";
+import Transactions from "./components/customerHome/Transactions/Transactions";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="reset-update-password" element={<ResetUpdatePassword />} />
         <Route path="reset-password" element={<ResetPassword />} />
         <Route path="change-password" element={<ChangePassword />} />
+        <Route path="customer-transactions" element={<Transactions />}/>
       </Routes>
     </BrowserRouter>
   );

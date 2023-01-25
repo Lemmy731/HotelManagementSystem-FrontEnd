@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+}
+
+.tranTable {
+  width: 1020px;
+  overflow-x: scroll;
+  margin: 0 auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 1020px;
+}
+.TransactionSearchBar {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.TransactionFilterIcon {
+  font-size: 20px;
+}
+
+.TransactionsearchInput {
+  width: max-content;
+  position: relative;
+}
+
+.TransactionsearchInput input {
+  width: 300px;
+  font-size: 14px;
+  padding: 10px 30px;
+  border-radius: 4px;
+  background-color: #dae1ec;
+  border: 1px solid #dae1ec;
+}
+
+.TransactionSearchIcon {
+  font-size: 20px;
+  position: absolute;
+  top: 25%;
+  left: 7px;
+}
+
+td,
+th {
+  text-align: center;
+  padding: 18px 8px;
+  width: 20px;
+}
+
+.ellipsis {
+  font-size: 20px;
+  text-align: center;
+  color: #7d90b2;
+}
+
+.TransactionCrud {
+  display: flex;
+  padding: 5px 2px;
+  font-size: 18px;
+}
+.TransactionCrud span {
+  padding: 8px 8px;
+}
+
+div.TransactionCrud {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.TransactionCrud span {
+  display: table-cell;
+  text-align: justify;
+  color: #7d90b2;
+}
+
+.TranCheckBox {
+  width: 20px;
+}
+
+tr:nth-child(even) {
+  background-color: #f4f7fc;
+}
+
+tr:hover {
+  background-color: #4b515b26;
+}
+
+.Transaction-pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #7d90b2;
+}
+
+.page-count {
+  display: flex;
+  flex: 1;
+  gap: 2.5em;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.T-h4-2 {
+  display: flex;
+  gap: 1.5em;
+  align-items: center;
+}
+
+.AngledArrow + .AngledArrow {
+  padding-left: 40px;
+  padding-right: 20px;
+}
