@@ -17,6 +17,7 @@ import Delete from "./components/modals/DeleteModal";
 import Update from "./components/modals/UpdatedModal";
 import Error from "./components/modals/ErrorModal";
 import Success from "./components/modals/SuccessModal";
+import Booking from "./pages/customer/Booking";
 import ViewMore from "./components/viewMore/viewMore";
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Route path="reset-update-password" element={<ResetUpdatePassword />} />
         <Route path="reset-password" element={<ResetPassword />} />
         <Route path="change-password" element={<ChangePassword />} />
+        <Route path="booking" element={<Booking />} />
         <Route path="user-transaction" element={< UserTransactions/>} />
         <Route path="customer-transactions" element={<Transactions />}/> 
         <Route path="pay-for-hotel" element={<PayForHotelForm />} /> 

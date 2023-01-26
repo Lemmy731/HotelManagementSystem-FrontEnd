@@ -1,0 +1,21 @@
+.booking-container
+{
+    margin-left: 25rem;
+    margin-top: 5rem;
+    max-width: 600px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgba(32, 103, 161, 1);
+    padding: 0.75rem 1rem;
+}
+.booking-container h1
+{
+    color: rgba(32, 103, 161, 1);
+    text-align: center;
+}
+
+.btn-box
+{
+    text-align: right;
+    margin-top: 2rem;
+}
