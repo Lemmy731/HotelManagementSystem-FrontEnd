@@ -1,0 +1,171 @@
+:root {
+    --font-color: #1a2e3d;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-section-container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    gap: 20px;
+}
+
+.landing-section {
+    min-width: 60vw;
+    display: flex;
+    place-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 10px;
+    border: 1px solid lightslategray;
+    border-radius: 10px;
+}
+
+.left-landing-section {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    gap: 10px;
+    width: 30vw;
+}
+
+.landing-section p {
+    font-size: 12px;
+}
+
+
+.head-div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.head-div #rating-div {
+    background-color: rgba(0, 178, 139, 0.1);
+    border-radius: 20px;
+    padding: 4px 15px;
+    color: rgb(0, 178, 139);
+    font-weight: bold;
+}
+
+.address-div {
+    display: flex;
+    gap: 10px;
+    color: var(--font-color);
+}
+
+.address-div .small-icon {
+    width: 14px;
+}
+
+.main-img-div {
+    width: 30vw;
+}
+
+.main-img-div img {
+    width: 100%;
+}
+
+.main-img-slider-div {
+    width: 8vw;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: -20px;
+    /* position: relative; */
+}
+
+.slider .slider-content {
+    min-width: 10vw;
+    display: flex;
+    gap: 15px;
+}
+
+
+.slider img {
+    width: 100%;
+}
+
+#description {
+    color: #1a2e3d;
+    width: 90%;
+}
+
+.bottom-div p {
+    font-weight: bold;
+}
+
+
+
+
+
+/* /RIGHT */
+
+.right-landing-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.btn-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.button-flex-div {
+    width: 80%;
+    display: flex;
+    gap: 20px;
+    background-color: rgba(0, 178, 139, 0.1);
+    padding: 30px;
+    font-weight: bold;
+}
+
+/* .button-flex-div:nth-child(1) div {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    padding: 4px;
+}
+
+.button-flex-div:nth-child(1) div p:nth-child(2) {
+    margin-top: -10px;
+} */
+
+.delete-request-btn {
+    width: 100%;
+    border: 1px solid #ff8788;
+    color: #ff8788;
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: #fff;
+    transition: all .4s ease-in;
+}
+
+
+.delete-request-btn:hover {
+    background-color: #ff8788;
+    color: #fff;
+}
+
+@media(max-width: 1300px) {
+
+    .landing-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
