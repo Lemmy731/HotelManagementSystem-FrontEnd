@@ -1,0 +1,143 @@
+.review-progress-card {
+  padding: 2%0%2%0%;
+}
+.review-progress {
+  display: flex;
+}
+.review-progress-p {
+  display: inline;
+  padding-right: 10px;
+}
+.review-header-img {
+  max-width: 5%;
+}
+
+.review-card-container {
+  padding: 5%;
+  background-color: #f6fcff;
+}
+
+/* Filter(sort) Styles */
+.review-hotelfilter_container {
+  padding: 5%0%5%0%;
+}
+.review-top_span {
+  display: flex;
+  justify-content: space-between;
+}
+.review-first_span {
+  padding: 8px 12px;
+  border: 1px solid #2067a1;
+  border-radius: 5px;
+}
+.review-span-btn {
+  padding: 6px 10px;
+  color: #2067a1;
+  cursor: pointer;
+}
+.review-second_span {
+  padding: 8px 0px;
+  border: 1px solid #2067a1;
+  border-radius: 5px;
+}
+.review-top-pick-btn {
+  padding: 8px 12px;
+  color: #2067a1;
+  cursor: pointer;
+}
+.review-active-hotel {
+  background-color: #2067a1;
+  color: #ffffff;
+}
+.review-list {
+  padding: 2% 0% 0% 0%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.review-label {
+  color: black;
+  padding: 10px;
+}
+
+.review-listings-label {
+  font-weight: normal;
+}
+.review-sort {
+  color: darkblue;
+  display: flex;
+}
+.review-select-drop-down {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 2px;
+}
+.review-hotelfilter_container {
+  background-color: #f6fcff;
+}
+.review-list-card {
+  display: flex;
+  border-radius: 12px;
+  background-color: white;
+  margin-bottom: 4%;
+  padding: 2%;
+
+  box-shadow: 0px 2px 0px #6f6f7029;
+}
+.review-list-card:hover {
+  box-shadow: 1px 2px 9px #2067a139;
+  cursor: pointer;
+}
+
+.review-list-card-review {
+  display: flex;
+  font-weight: lighter;
+  padding: 0px 40px 40px 0px;
+  font-size: smaller;
+}
+
+.review-review-text {
+  padding-right: 20px;
+  text-align: right;
+  cursor: text;
+}
+
+.review-rate-num {
+  background-color: #2067a1;
+  color: white;
+  padding: 15px;
+  height: 20px;
+  border-radius: 3px;
+  cursor: auto;
+}
+.review-list-card-content {
+  padding: 40px;
+  padding-top: 0%;
+  cursor: text;
+}
+.review-h2 {
+  color: #2067a1;
+}
+.review-h4 {
+  font-weight: normal;
+}
+.review-pagination {
+  padding: 15px;
+  display: flex;
+  justify-content: right;
+  text-align: right;
+  font-weight: bold;
+}
+:where(.css-dev-only-do-not-override-1n7nwfa).ant-pagination
+  .ant-pagination-item-active
+  a:hover {
+  color: #ffff;
+}
+
+:where(.css-dev-only-do-not-override-1n7nwfa).ant-pagination
+  .ant-pagination-item-active
+  a {
+  background-color: #2067a1;
+  color: white;
+  border-color: #2067a1;
+}
