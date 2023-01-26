@@ -1,0 +1,130 @@
+.card-container {
+  padding: 5%;
+  background-color: #f6fcff;
+}
+
+/* Filter(sort) Styles */
+.hotelfilter_container {
+  padding: 5%0%5%0%;
+}
+.top_span {
+  display: flex;
+  justify-content: space-between;
+}
+.first_span {
+  padding: 8px 12px;
+  border: 1px solid #2067a1;
+  border-radius: 5px;
+}
+.span-btn {
+  padding: 6px 10px;
+  color: #2067a1;
+  cursor: pointer;
+}
+.second_span {
+  padding: 8px 0px;
+  border: 1px solid #2067a1;
+  border-radius: 5px;
+}
+.top-pick-btn {
+  padding: 8px 12px;
+  color: #2067a1;
+  cursor: pointer;
+}
+.active-hotel {
+  background-color: #2067a1;
+  color: #ffffff;
+}
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.label {
+  color: black;
+  padding: 10px;
+}
+.listings-label {
+  font-weight: normal;
+}
+.sort {
+  color: darkblue;
+  display: flex;
+}
+.select-drop-down {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 2px;
+}
+.hotelfilter_container {
+  background-color: #f6fcff;
+}
+/* Card Styles */
+.list-card {
+  display: flex;
+  border-radius: 12px;
+  background-color: white;
+  margin-bottom: 4%;
+  padding: 2%;
+
+  box-shadow: 0px 2px 0px #6f6f7029;
+}
+.list-card:hover {
+  box-shadow: 1px 2px 9px #2067a139;
+  cursor: pointer;
+}
+
+.list-card-review {
+  display: flex;
+  font-weight: lighter;
+  padding: 0px 40px 40px 0px;
+  font-size: smaller;
+}
+
+.review-text {
+  padding-right: 20px;
+  text-align: right;
+  cursor: text;
+}
+
+.rate-num {
+  background-color: #2067a1;
+  color: white;
+  /* margin: 5px; */
+  padding: 15px;
+  height: 20px;
+  border-radius: 3px;
+  cursor: auto;
+}
+.list-card-content {
+  max-width: 45%;
+  padding: 40px;
+  padding-top: 0%;
+  cursor: text;
+}
+.h2 {
+  color: #2067a1;
+}
+.h4 {
+  font-weight: normal;
+}
+.pagination {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+}
+:where(.css-dev-only-do-not-override-1n7nwfa).ant-pagination
+  .ant-pagination-item-active
+  a:hover {
+  color: #ffff;
+}
+
+:where(.css-dev-only-do-not-override-1n7nwfa).ant-pagination
+  .ant-pagination-item-active
+  a {
+  background-color: #2067a1;
+  color: white;
+  border-color: #2067a1;
+}
