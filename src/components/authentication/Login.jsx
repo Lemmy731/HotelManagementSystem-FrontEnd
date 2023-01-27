@@ -27,7 +27,7 @@ function Login() {
         </button>
         <p>
           Don't have an account? <Link to="/register">Register</Link> or{" "}
-          <Link to="/reset-password">Forget Password</Link>
+          <Link to="/change-password">Forget Password</Link>
         </p>
       </div>
     </div>

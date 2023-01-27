@@ -62,7 +62,7 @@
     color: rgb(120, 183, 249);
 }
 
-span {
+.quote {
     font-size: 100px;
     font-style: oblique;
 }

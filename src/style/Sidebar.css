@@ -1,15 +1,16 @@
 /* The side navigation menu */
 .sidenav {
     height: 200%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
+    width: 250px; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
-    top: 85px; /* Stay at the top */
+    top: 90px; /* Stay at the top */
     left: 0;
     background-color:#2067A1; /* White*/
     overflow-x: hidden; /* Disable horizontal scroll */
     /*padding-top: 20px;  Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   
   /* The navigation menu links */
@@ -20,7 +21,7 @@
     color: white;
     display: block;
     transition: 0.3s;
-    height: 3.5rem;
+    height: 7rem;
     /* background-color:black; */
   }
 
@@ -34,7 +35,7 @@
 
   .logout div a img{
     width: 2rem;  
-    padding-top: 2.5rem;
+    padding-top: 1rem;
   }
   .logout div a{
     font-size: 1rem;
@@ -47,10 +48,10 @@
   
   
   /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover {
-    /* color: #f1f1f1; */
+  /* .sidenav a:hover {
+    color: #f1f1f1;
   }
-  
+   */
   /* Position and style the close button (top right corner) */
   .sidenav .closebtn {
     position: absolute;
@@ -62,15 +63,19 @@
   
   /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
   #main {
+    padding-top: 6rem;
+    margin-left: 250px;
     transition: margin-left .5s;
-    padding: 20px;
     background-color: #F6FCFF;
   }
   
 
-nav{
+.nav{
     display: flex;
     background-color: white;
+    position: fixed;
+    z-index: 2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    }
 
 .menu{
@@ -79,7 +84,7 @@ nav{
     font-size: 2rem;
 }
 
-nav input{
+.nav input{
     padding:0.7rem;
     margin: 1rem;
     margin-left: 15rem;
@@ -110,10 +115,10 @@ nav input{
     /* background-color: gray; */
     border-left: 2px solid black;
 }
-.profile{
+.profile, .dropdownImg{
     padding:0.4rem;
     margin: 0.2rem;
-    margin-right: 2rem;
+    margin-right: 35px;
     font-size: 1.3em;
 }
 
