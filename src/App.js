@@ -3,14 +3,14 @@ import Login from "./components/authentication/Login";
 import Register from "./components/authentication/Register";
 import ResetUpdatePassword from "../src/components/ResetUpdatePassword/ResetUpdatePassword";
 import CustomerDashboard from "./components/customerHome/Dashboard";
-import ManagerDashboard from "./components/managerHome/Dashboard";
+import ManagerDashboard from "./components/ManagerHome/Dashboard";
 import AdminDashboard from "./components/adminHome/Dashboard";
 import CustomerHotel from "./components/customerHome/Hotels";
 import CustomerManager from "./components/customerHome/Manager";
 import CustomerTransaction from "./components/customerHome/Transactions";
-import ManagerHotel from "./components/managerHome/Hotels";
-import ManagerBookings from "./components/managerHome/Bookings";
-import ManagerTransactions from "./components/managerHome/Transactions";
+import ManagerHotel from "./components/ManagerHome/Hotels";
+import ManagerBookings from "./components/ManagerHome/Bookings";
+import ManagerTransactions from "./components/ManagerHome/Transactions";
 import AdminHotel from "./components/adminHome/Hotels";
 import AdminManager from "./components/adminHome/Manager";
 import AdminTransaction from "./components/adminHome/Transactions";
@@ -30,6 +30,7 @@ import Booking from "./pages/customer/Booking";
 import ViewMore from "./components/viewMore/viewMore";
 import HotelListing from "./components/HotelListing/HotelListing";
 import HotelReview from "./components/HotelReview/HotelReview";
+
 
 function App()
 {
@@ -77,6 +78,7 @@ function App()
         <Route path="success-modal" element={<Success />} />
         <Route path="view-more" element={<ViewMore />} />
         <Route path="hotel-listing" element={<HotelListing />} />
+
       </Routes>
 
 

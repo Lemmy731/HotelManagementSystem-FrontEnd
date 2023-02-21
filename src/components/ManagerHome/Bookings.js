@@ -2,7 +2,7 @@ import Sidebar from '../navs/Sidebar';
 import NavLink from '../navs/NavLink';
 import Navbar from '../navs/Navbar';
 
-export default function Bookings() {
+ export default function Bookings() {
     return(
         <>
             <Navbar/>
